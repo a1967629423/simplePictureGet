@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node dist/index.js"
+    "dev": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/a1967629423/simplePictureGet#readme",
   "dependencies": {
+    "@types/express": "^4.17.0",
     "@types/node": "^12.0.12",
+    "express": "^4.17.1",
     "typescript": "^3.5.2"
   }
 }
